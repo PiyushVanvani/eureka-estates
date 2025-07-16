@@ -1,0 +1,461 @@
+/* Responsive Navbar */
+@media (max-width: 768px) {
+  .navbar-own {
+    flex-direction: column;
+    padding: 15px;
+  }
+
+  .navbar-items {
+    margin-top: 10px;
+    flex-direction: column;
+  }
+
+  .navbar-items a {
+    margin: 5px 0;
+  }
+
+  .login-btn {
+    margin-top: 10px;
+    width: 100%;
+  }
+}
+
+/*For Carousel Caption*/
+
+@media (max-width: 1200px) {
+  .carousel-caption h5 {
+    font-size: 1.8rem;
+  }
+  .carousel-caption p {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 992px) {
+  .carousel-caption h5 {
+    font-size: 1.5rem;
+  }
+  .carousel-caption p {
+    font-size: 0.9rem;
+  }
+}
+/* Responsive Design */
+@media (max-width: 1024px) {
+  .contact-grid {
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+  }
+}
+
+@media (max-width: 768px) {
+  .contact-grid {
+    grid-template-columns: 1fr;
+  }
+}
+@media (max-width: 768px) {
+  .carousel-caption h5 {
+    font-size: 1.2rem;
+  }
+  .carousel-caption p {
+    font-size: 0.8rem;
+  }
+  .carousel-caption {
+    padding: 10px;
+  }
+}
+
+@media (max-width: 576px) {
+  .carousel-caption h5 {
+    font-size: 0.8rem;
+  }
+  .carousel-caption p {
+    font-size: 0.7rem;
+  }
+  .carousel-caption {
+    padding: 8px;
+  }
+}
+@media (max-width: 576px) {
+  .carousel-caption .btn-primary {
+    font-size: 0.9rem;
+    padding: 2px 4px;
+  }
+}
+
+@media (min-width: 577px) and (max-width: 768px) {
+  .carousel-caption .btn-primary {
+    font-size: 1rem;
+    padding: 2px 4px;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 992px) {
+  .carousel-caption .btn-primary {
+    font-size: 1.1rem; /* Larger font size for medium screens */
+    padding: 3px 6px; /* Adjust padding */
+  }
+}
+
+@media (min-width: 993px) and (max-width: 1200px) {
+  .carousel-caption .btn-primary {
+    font-size: 1.2rem; /* Larger font size for larger medium screens */
+    padding: 4px 8px; /* Adjust padding */
+  }
+}
+
+@media (min-width: 1201px) {
+  .carousel-caption .btn-primary {
+    font-size: 1.3rem; /* Larger font size for screens larger than 1200px */
+    padding: 5px 10px; /* Adjust padding */
+  }
+}
+
+/*For Types of Properties Section Headings*/
+@media (max-width: 768px) {
+  .types h3 {
+    font-size: 2rem; /* Decrease font size for smaller screens */
+  }
+
+  .types h6 {
+    font-size: 0.875rem; /* Decrease font size for smaller screens */
+  }
+}
+/* Offers Section */
+@media (max-width: 768px) {
+  .offer-card img {
+    height: 150px;
+  }
+
+  .offer-card .card-title {
+    font-size: 1rem;
+  }
+
+  .offer-card .card-text {
+    font-size: 0.9rem;
+  }
+}
+
+@media (max-width: 576px) {
+  .offer-card img {
+    height: 120px;
+  }
+
+  .offer-card .card-title {
+    font-size: 0.9rem;
+  }
+
+  .offer-card .card-text {
+    font-size: 0.8rem;
+  }
+}
+/* Default card layout for large screens (3 cards per row) */
+@media (min-width: 1200px) {
+  .offer-card {
+    margin-bottom: 30px;
+  }
+}
+
+/* For medium screens (2 cards per row) */
+@media (max-width: 1199px) and (min-width: 768px) {
+  .offer-card {
+    margin-bottom: 30px;
+  }
+  .col-md-4 {
+    flex: 0 0 50%; /* 2 cards per row */
+    max-width: 50%;
+  }
+}
+
+/* For small screens (1 card per row) */
+@media (max-width: 767px) {
+  .col-sm-12 {
+    flex: 0 0 100%; /* 1 card per row */
+    max-width: 100%;
+  }
+  .offer-card {
+    margin-bottom: 20px;
+  }
+}
+
+/* Styling adjustments for images to be responsive */
+.offer-card img {
+  width: 100%;
+  height: auto;
+}
+
+/* Adjust container padding for smaller screens */
+@media (max-width: 768px) {
+  .container {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+}
+@media (max-width: 768px) {
+  .about-us .section-heading {
+    font-size: 2rem;
+  }
+
+  .about-us .section-subheading {
+    font-size: 1rem;
+  }
+
+  .about-us .about-description {
+    font-size: 1rem;
+  }
+
+  .about-us .about-highlights li {
+    font-size: 0.9rem;
+  }
+
+  .about-us .btn-primary {
+    font-size: 0.9rem;
+    padding: 8px 16px;
+  }
+}
+
+/* Counters Section for Mobile */
+@media (max-width: 768px) {
+  .counters .counter {
+    font-size: 2.5rem;
+  }
+
+  .counters p {
+    font-size: 0.9rem;
+  }
+}
+
+/* Media Queries for Responsiveness */
+@media (max-width: 768px) {
+  .about-us .section-heading {
+    font-size: 2rem;
+  }
+
+  .about-us .section-subheading {
+    font-size: 1rem;
+  }
+
+  .about-us .about-description {
+    font-size: 1rem;
+  }
+
+  .about-us .about-highlights li {
+    font-size: 0.9rem;
+  }
+
+  .about-us .btn-primary {
+    font-size: 0.9rem;
+    padding: 8px 16px;
+  }
+}
+
+/* Counters Section for Mobile */
+@media (max-width: 768px) {
+  .counters .counter {
+    font-size: 2.5rem;
+  }
+
+  .counters p {
+    font-size: 0.9rem;
+  }
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .footer-top {
+    flex-direction: column; /* Stack footer columns vertically */
+  }
+
+  .footer-col {
+    flex: 1 1 100%; /* Each column takes full width */
+    margin-bottom: 20px; /* Add some space between columns */
+  }
+
+  .footer-bottom {
+    flex-direction: column; /* Stack footer bottom section vertically */
+    text-align: center; /* Center-align footer bottom content */
+    gap: 15px; /* Add some gap between items */
+  }
+
+  .social-icons {
+    margin-top: 10px;
+  }
+
+  .footer-links {
+    justify-content: center; /* Center the footer links on smaller screens */
+  }
+
+  .footer-links li {
+    margin: 0 10px; /* Space between links */
+  }
+}
+/* Responsive Design */
+@media (max-width: 768px) {
+  .footer-top {
+    flex-direction: column;
+  }
+
+  .footer-bottom {
+    flex-direction: column;
+    text-align: center;
+    gap: 15px;
+  }
+}
+@media (max-width: 1024px) {
+  .agents-cards {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 768px) {
+  .agents-cards {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* Media Queries for Responsiveness */
+@media (max-width: 768px) {
+  .mission-vision .row {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .mission-vision .mission-box,
+  .mission-vision .vision-box {
+    width: 90%;
+    max-width: none; /* Allow the boxes to expand fully on small screens */
+    margin-bottom: 30px; /* Add spacing between boxes */
+  }
+
+  .core-values .value-box {
+    margin-bottom: 20px; /* Ensure spacing between value boxes */
+    width: 90%; /* Ensure the value boxes take up most of the screen on smaller devices */
+  }
+}
+
+/* Animation when scrolling into view */
+@media (prefers-reduced-motion: no-preference) {
+  .mission-vision .mission-box,
+  .mission-vision .vision-box,
+  .core-values .value-box {
+    animation: fadeInUp 1s forwards;
+    opacity: 0;
+  }
+
+  /* Add delay for staggering animation */
+  .mission-vision .mission-box {
+    animation-delay: 0.3s;
+  }
+
+  .mission-vision .vision-box {
+    animation-delay: 0.6s;
+  }
+
+  .core-values .value-box {
+    animation-delay: 0.9s;
+  }
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .timeline::before {
+    left: 20px;
+  }
+
+  .timeline-item,
+  .timeline-item.left,
+  .timeline-item.right {
+    width: 100%;
+    padding-left: 40px;
+    text-align: left;
+    left: 0;
+  }
+
+  .timeline-item .content::after {
+    left: -30px;
+    right: auto;
+  }
+}
+
+/* Fade-in animation */
+@keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    transform: translateY(40px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.leader-card.animate-visible {
+  animation: fadeInUp 1s forwards;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .leadership-cards {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .leader-card {
+    width: 90%;
+  }
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .property-detail {
+    padding: 2rem 1.5rem 2.5rem;
+    margin: 2rem 1rem;
+    max-width: 100%;
+  }
+  .property-detail h2 {
+    font-size: 2.2rem;
+  }
+  .property-detail h4 {
+    font-size: 1.3rem;
+  }
+  .property-detail p {
+    font-size: 1rem;
+  }
+  .property-detail .btn-outline-primary {
+    font-size: 1rem;
+    padding: 0.65rem 1.5rem;
+  }
+  .property-detail img {
+    max-height: 320px;
+    border-radius: 12px;
+  }
+  .badges {
+    justify-content: center;
+  }
+}
+
+@media (max-width: 480px) {
+  .property-detail {
+    padding: 1.5rem 1rem 2rem;
+    margin: 1.5rem 1rem;
+  }
+  .property-detail h2 {
+    font-size: 1.8rem;
+  }
+  .property-detail h4 {
+    font-size: 1.1rem;
+  }
+  .property-detail p {
+    font-size: 0.95rem;
+  }
+  .property-detail .btn-outline-primary {
+    font-size: 0.95rem;
+    padding: 0.55rem 1.3rem;
+  }
+  .property-detail img {
+    max-height: 250px;
+    border-radius: 10px;
+  }
+  .badges {
+    gap: 0.6rem;
+  }
+}

@@ -1,0 +1,640 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Our Agents | Eureka! Estates</title>
+
+    <!-- CDN LINKS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    />
+
+    <!-- OWN CSS -->
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/responsive-style.css" />
+    <link rel="stylesheet" href="css/animation.css" />
+  </head>
+
+  <body>
+    <!-- Header design -->
+
+    <nav class="navbar navbar-expand-lg navbar-own sticky-top">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html"
+          ><img src="images/logo.png" alt="Eureka! Estates Logo" width="225px"
+        /></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarTogglerDemo02"
+          aria-controls="navbarTogglerDemo02"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0 navbar-items">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="index.html">HOME</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about_us.html">ABOUT</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="properties.html">PROPERTIES</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="agents.html">AGENTS</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">CONTACT</a>
+            </li>
+            <li><button id="loginBtn" class="login-btn">Login</button></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Page Transition Loader -->
+    <div id="page-transition">
+      <img src="images/logo.png" alt="Eureka! Estates" class="loader-logo" />
+    </div>
+
+    <!--Agent Section-->
+    <section id="agents-overview">
+      <div class="container">
+        <h2 class="section-title">Meet Our Agents</h2>
+        <p class="section-description">
+          Our expert agents in Ahmedabad, Gujarat, are ready to help you find
+          the perfect property. With years of experience, our team is committed
+          to offering personalized and top-quality service.
+        </p>
+
+        <div class="agents-cards">
+          <!-- Agent 1 -->
+          <div class="agent-card animate-card">
+            <img
+              src="images/agents/agent_1.png"
+              alt="Agent 1"
+              class="agent-img"
+            />
+            <span class="featured-badge"> ⭐ </span>
+
+            <div class="agent-info">
+              <h3>Rahul Patel</h3>
+              <p>Senior Property Consultant</p>
+              <p class="agent-bio">
+                Rahul has over 10 years of experience helping clients find their
+                dream homes in Ahmedabad. His dedication to customer
+                satisfaction has earned him a loyal clientele.
+              </p>
+              <div class="social-icons">
+                <a href="https://www.facebook.com/" aria-label="Facebook"
+                  ><i class="fab fa-facebook-f"></i
+                ></a>
+                <a href="https://x.com/" aria-label="Twitter"
+                  ><i class="fab fa-twitter"></i
+                ></a>
+                <a href="https://www.instagram.com/" aria-label="Instagram"
+                  ><i class="fab fa-instagram"></i
+                ></a>
+                <a href="https://www.linkedin.com/" aria-label="LinkedIn"
+                  ><i class="fab fa-linkedin-in"></i
+                ></a>
+              </div>
+              <a href="mailto:rahul.patel@email.com" class="contact-btn"
+                >Contact Rahul</a
+              >
+            </div>
+          </div>
+
+          <!-- Agent 2 -->
+          <div class="agent-card animate-card">
+            <img
+              src="images/agents/agent_2.png"
+              alt="Agent 2"
+              class="agent-img"
+            />
+            <span class="featured-badge"> ⭐ </span>
+
+            <div class="agent-info">
+              <h3>Priya Sharma</h3>
+              <p>Real Estate Specialist</p>
+              <p class="agent-bio">
+                Priya brings a wealth of knowledge about Gujarat's property
+                market and is known for her ability to match clients with the
+                ideal properties.
+              </p>
+              <div class="social-icons">
+                <a href="https://www.facebook.com/" aria-label="Facebook"
+                  ><i class="fab fa-facebook-f"></i
+                ></a>
+                <a href="https://x.com/" aria-label="Twitter"
+                  ><i class="fab fa-twitter"></i
+                ></a>
+                <a href="https://www.instagram.com/" aria-label="Instagram"
+                  ><i class="fab fa-instagram"></i
+                ></a>
+                <a href="https://www.linkedin.com/" aria-label="LinkedIn"
+                  ><i class="fab fa-linkedin-in"></i
+                ></a>
+              </div>
+              <a href="mailto:priya.sharma@email.com" class="contact-btn"
+                >Contact Priya</a
+              >
+            </div>
+          </div>
+
+          <!-- Agent 3 -->
+          <div class="agent-card animate-card">
+            <img
+              src="images/agents/agent_3.png"
+              alt="Agent 3"
+              class="agent-img"
+            /><span class="featured-badge"> ⭐ </span>
+
+            <div class="agent-info">
+              <h3>Vikas Mehta</h3>
+              <p>Property Expert</p>
+              <p class="agent-bio">
+                Vikas specializes in both residential and commercial properties.
+                His keen eye for property value and market trends helps clients
+                make informed decisions.
+              </p>
+              <div class="social-icons">
+                <a href="https://www.facebook.com/" aria-label="Facebook"
+                  ><i class="fab fa-facebook-f"></i
+                ></a>
+                <a href="https://x.com/" aria-label="Twitter"
+                  ><i class="fab fa-twitter"></i
+                ></a>
+                <a href="https://www.instagram.com/" aria-label="Instagram"
+                  ><i class="fab fa-instagram"></i
+                ></a>
+                <a href="https://www.linkedin.com/" aria-label="LinkedIn"
+                  ><i class="fab fa-linkedin-in"></i
+                ></a>
+              </div>
+              <a href="mailto:vikas.mehta@email.com" class="contact-btn"
+                >Contact Vikas</a
+              >
+            </div>
+          </div>
+
+          <!-- Agent 4 -->
+          <div class="agent-card animate-card">
+            <img
+              src="images/agents/agent_4.png"
+              alt="Agent 4"
+              class="agent-img"
+            /><span class="featured-badge"> ⭐ </span>
+
+            <div class="agent-info">
+              <h3>Neha Desai</h3>
+              <p>Commercial Property Agent</p>
+              <p class="agent-bio">
+                Neha specializes commercial properties, helping businesses find
+                the best locations to thrive in Ahmedabad's vibrant economy.
+              </p>
+              <div class="social-icons">
+                <a href="https://www.facebook.com/" aria-label="Facebook"
+                  ><i class="fab fa-facebook-f"></i
+                ></a>
+                <a href="https://x.com/" aria-label="Twitter"
+                  ><i class="fab fa-twitter"></i
+                ></a>
+                <a href="https://www.instagram.com/" aria-label="Instagram"
+                  ><i class="fab fa-instagram"></i
+                ></a>
+                <a href="https://www.linkedin.com/" aria-label="LinkedIn"
+                  ><i class="fab fa-linkedin-in"></i
+                ></a>
+              </div>
+              <a href="mailto:neha.desai@email.com" class="contact-btn"
+                >Contact Neha</a
+              >
+            </div>
+          </div>
+          <!-- Agent 5 -->
+          <div class="agent-card animate-card">
+            <img
+              src="images/agents/agent_5.png"
+              alt="Agent 5"
+              class="agent-img"
+            />
+            <div class="agent-info">
+              <h3>Anjali Verma</h3>
+              <p>Luxury Property Consultant</p>
+              <p class="agent-bio">
+                Anjali excels in luxury properties across Gujarat, providing
+                tailored service and expert advice to help elite clients close
+                successful deals.
+              </p>
+
+              <div class="social-icons">
+                <a href="https://www.facebook.com/" aria-label="Facebook"
+                  ><i class="fab fa-facebook-f"></i
+                ></a>
+                <a href="https://x.com/" aria-label="Twitter"
+                  ><i class="fab fa-twitter"></i
+                ></a>
+                <a href="https://www.instagram.com/" aria-label="Instagram"
+                  ><i class="fab fa-instagram"></i
+                ></a>
+                <a href="https://www.linkedin.com/" aria-label="LinkedIn"
+                  ><i class="fab fa-linkedin-in"></i
+                ></a>
+              </div>
+              <a href="mailto:anjali.verma@email.com" class="contact-btn"
+                >Contact Anjali</a
+              >
+            </div>
+          </div>
+
+          <!-- Agent 6 -->
+          <div class="agent-card animate-card">
+            <img
+              src="images/agents/agent_6.png"
+              alt="Agent 6"
+              class="agent-img"
+            />
+            <div class="agent-info">
+              <h3>Amit Joshi</h3>
+              <p>Commercial Consultant</p>
+              <p class="agent-bio">
+                Amit has over 12 years of commercial experience , helping
+                clients lease and sell office spaces with strong results and
+                smart strategies in the market.
+              </p>
+
+              <div class="social-icons">
+                <a href="https://www.facebook.com/" aria-label="Facebook"
+                  ><i class="fab fa-facebook-f"></i
+                ></a>
+                <a href="https://x.com/" aria-label="Twitter"
+                  ><i class="fab fa-twitter"></i
+                ></a>
+                <a href="https://www.instagram.com/" aria-label="Instagram"
+                  ><i class="fab fa-instagram"></i
+                ></a>
+                <a href="https://www.linkedin.com/" aria-label="LinkedIn"
+                  ><i class="fab fa-linkedin-in"></i
+                ></a>
+              </div>
+              <a href="mailto:amit.joshi@email.com" class="contact-btn"
+                >Contact Amit</a
+              >
+            </div>
+          </div>
+
+          <!-- Agent 7 -->
+          <div class="agent-card animate-card">
+            <img
+              src="images/agents/agent_7.png"
+              alt="Agent 7"
+              class="agent-img"
+            />
+            <div class="agent-info">
+              <h3>Deepa Shah</h3>
+              <p>Rental Specialist</p>
+              <p class="agent-bio">
+                Deepa connects tenants with suitable rental homes quickly. Her
+                local knowledge and negotiating skills ensure satisfaction for
+                both owners and tenants.
+              </p>
+
+              <div class="social-icons">
+                <a href="https://www.facebook.com/" aria-label="Facebook"
+                  ><i class="fab fa-facebook-f"></i
+                ></a>
+                <a href="https://x.com/" aria-label="Twitter"
+                  ><i class="fab fa-twitter"></i
+                ></a>
+                <a href="https://www.instagram.com/" aria-label="Instagram"
+                  ><i class="fab fa-instagram"></i
+                ></a>
+                <a href="https://www.linkedin.com/" aria-label="LinkedIn"
+                  ><i class="fab fa-linkedin-in"></i
+                ></a>
+              </div>
+              <a href="mailto:deepa.shah@email.com" class="contact-btn"
+                >Contact Deepa</a
+              >
+            </div>
+          </div>
+
+          <!-- Agent 8 -->
+          <div class="agent-card animate-card">
+            <img
+              src="images/agents/agent_8.png"
+              alt="Agent 8"
+              class="agent-img"
+            />
+            <div class="agent-info">
+              <h3>Sameer Khan</h3>
+              <p>Real Estate Advisor</p>
+              <p class="agent-bio">
+                Sameer offers expert guidance for buyers and investors. His
+                honest approach and deep insights ensure wise and rewarding real
+                estate decisions.
+              </p>
+
+              <div class="social-icons">
+                <a href="https://www.facebook.com/" aria-label="Facebook"
+                  ><i class="fab fa-facebook-f"></i
+                ></a>
+                <a href="https://x.com/" aria-label="Twitter"
+                  ><i class="fab fa-twitter"></i
+                ></a>
+                <a href="https://www.instagram.com/" aria-label="Instagram"
+                  ><i class="fab fa-instagram"></i
+                ></a>
+                <a href="https://www.linkedin.com/" aria-label="LinkedIn"
+                  ><i class="fab fa-linkedin-in"></i
+                ></a>
+              </div>
+              <a href="mailto:sameer.khan@email.com" class="contact-btn"
+                >Contact Sameer</a
+              >
+            </div>
+          </div>
+
+          <!-- Agent 9 -->
+          <div class="agent-card animate-card">
+            <img
+              src="images/agents/agent_9.png"
+              alt="Agent 9"
+              class="agent-img"
+            />
+            <div class="agent-info">
+              <h3>Kavita Thakur</h3>
+              <p>Villa Specialist</p>
+              <p class="agent-bio">
+                Kavita has an eye for exclusive villas and gated communities.
+                Her clients rely on her for premium lifestyle homes and
+                long-term family investments.
+              </p>
+              <div class="social-icons">
+                <a href="https://www.facebook.com/" aria-label="Facebook"
+                  ><i class="fab fa-facebook-f"></i
+                ></a>
+                <a href="https://x.com/" aria-label="Twitter"
+                  ><i class="fab fa-twitter"></i
+                ></a>
+                <a href="https://www.instagram.com/" aria-label="Instagram"
+                  ><i class="fab fa-instagram"></i
+                ></a>
+                <a href="https://www.linkedin.com/" aria-label="LinkedIn"
+                  ><i class="fab fa-linkedin-in"></i
+                ></a>
+              </div>
+              <a href="mailto:kavita.thakur@email.com" class="contact-btn"
+                >Contact Kavita</a
+              >
+            </div>
+          </div>
+
+          <!-- Agent 10 -->
+          <div class="agent-card animate-card">
+            <img
+              src="images/agents/agent_10.png"
+              alt="Agent 10"
+              class="agent-img"
+            />
+            <div class="agent-info">
+              <h3>Manoj Singh</h3>
+              <p>Investment Consultant</p>
+              <p class="agent-bio">
+                Manoj helps domestic and NRI clients make informed real estate
+                investments. He focuses on future growth, rental yields, and
+                legal clarity for peace of mind.
+              </p>
+              <div class="social-icons">
+                <a href="https://www.facebook.com/" aria-label="Facebook"
+                  ><i class="fab fa-facebook-f"></i
+                ></a>
+                <a href="https://x.com/" aria-label="Twitter"
+                  ><i class="fab fa-twitter"></i
+                ></a>
+                <a href="https://www.instagram.com/" aria-label="Instagram"
+                  ><i class="fab fa-instagram"></i
+                ></a>
+                <a href="https://www.linkedin.com/" aria-label="LinkedIn"
+                  ><i class="fab fa-linkedin-in"></i
+                ></a>
+              </div>
+              <a href="mailto:manoj.singh@email.com" class="contact-btn"
+                >Contact Manoj</a
+              >
+            </div>
+          </div>
+
+          <!-- Agent 11 -->
+          <div class="agent-card animate-card">
+            <img
+              src="images/agents/agent_11.png"
+              alt="Agent 11"
+              class="agent-img"
+            />
+            <div class="agent-info">
+              <h3>Sheetal Rana</h3>
+              <p>New Project Expert</p>
+              <p class="agent-bio">
+                Sheetal collaborates with top builders and offers early access
+                to upcoming launches. She ensures clients benefit from
+                pre-launch prices.
+              </p>
+              <div class="social-icons">
+                <a href="https://www.facebook.com/" aria-label="Facebook"
+                  ><i class="fab fa-facebook-f"></i
+                ></a>
+                <a href="https://x.com/" aria-label="Twitter"
+                  ><i class="fab fa-twitter"></i
+                ></a>
+                <a href="https://www.instagram.com/" aria-label="Instagram"
+                  ><i class="fab fa-instagram"></i
+                ></a>
+                <a href="https://www.linkedin.com/" aria-label="LinkedIn"
+                  ><i class="fab fa-linkedin-in"></i
+                ></a>
+              </div>
+              <a href="mailto:sheetal.rana@email.com" class="contact-btn"
+                >Contact Sheetal</a
+              >
+            </div>
+          </div>
+
+          <!-- Agent 12 -->
+          <div class="agent-card animate-card">
+            <img
+              src="images/agents/agent_12.png"
+              alt="Agent 12"
+              class="agent-img"
+            />
+            <div class="agent-info">
+              <h3>Rajiv Thakkar</h3>
+              <p>Land Acquisition Lead</p>
+              <p class="agent-bio">
+                Rajiv works with realtors and developers to secure land in prime
+                zones. His network and due diligence streamline even the most
+                complex land deals.
+              </p>
+              <div class="social-icons">
+                <a href="https://www.facebook.com/" aria-label="Facebook"
+                  ><i class="fab fa-facebook-f"></i
+                ></a>
+                <a href="https://x.com/" aria-label="Twitter"
+                  ><i class="fab fa-twitter"></i
+                ></a>
+                <a href="https://www.instagram.com/" aria-label="Instagram"
+                  ><i class="fab fa-instagram"></i
+                ></a>
+                <a href="https://www.linkedin.com/" aria-label="LinkedIn"
+                  ><i class="fab fa-linkedin-in"></i
+                ></a>
+              </div>
+              <a href="mailto:rajiv.thakkar@email.com" class="contact-btn"
+                >Contact Rajiv</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Modern CTA: Join as Agent -->
+    <section class="join-agent-section py-5">
+      <div class="container text-center">
+        <h2 class="text-primary fw-bold mb-3">
+          Become a Part of Eureka! Estates
+        </h2>
+        <p class="cta-subtext mb-4">
+          Passionate about real estate? Join our dynamic team and help clients
+          find their dream property across Gujarat and beyond.
+        </p>
+        <a
+          href="https://wa.me/919999999999?text=Hi! I'm interested in joining Eureka Estates as an agent. Please share more details."
+          class="btn join-btn"
+          target="_blank"
+          rel="noopener"
+        >
+          <i class="fab fa-whatsapp me-2"></i> Join Us on WhatsApp
+        </a>
+      </div>
+    </section>
+
+    <!--Footer Section-->
+    <footer class="modern-footer">
+      <div class="container">
+        <!-- Footer Top -->
+        <div class="footer-top">
+          <!-- Get In Touch -->
+          <div class="footer-col">
+            <h4>Get In Touch</h4>
+            <p>123 Street, Ahmedabad, Gujarat, India</p>
+            <p>+91 98765 43210</p>
+            <p>info@example.com</p>
+            <!-- Social Media Icons -->
+            <div class="social-icons">
+              <a href="https://www.facebook.com/" aria-label="Facebook"
+                ><i class="fab fa-facebook-f"></i
+              ></a>
+              <a href="https://x.com/" aria-label="Twitter"
+                ><i class="fab fa-twitter"></i
+              ></a>
+              <a href="https://www.instagram.com/" aria-label="Instagram"
+                ><i class="fab fa-instagram"></i
+              ></a>
+              <a href="https://www.linkedin.com/" aria-label="LinkedIn"
+                ><i class="fab fa-linkedin-in"></i
+              ></a>
+            </div>
+          </div>
+
+          <!-- Quick Links -->
+          <div class="footer-col">
+            <h4>Quick Links</h4>
+            <ul>
+              <li><a href="index.html">Home</a></li>
+              <li><a href="contact.html">Contact</a></li>
+              <li><a href="about_us.html">About Us</a></li>
+              <li><a href="properties.html">Properties</a></li>
+            </ul>
+          </div>
+
+          <!-- Photo Gallery -->
+          <div class="footer-col">
+            <h4>Photo Gallery</h4>
+            <div class="photo-gallery">
+              <img src="images/Footer/img1.jpg" alt="Gallery Image 1" />
+              <img src="images/Footer/img2.jpg" alt="Gallery Image 2" />
+              <img src="images/Footer/img3.jpg" alt="Gallery Image 3" />
+              <img src="images/Footer/img4.jpg" alt="Gallery Image 4" />
+              <img src="images/Footer/img5.jpg" alt="Gallery Image 5" />
+              <img src="images/Footer/img6.jpg" alt="Gallery Image 6" />
+            </div>
+          </div>
+
+          <!-- Newsletter -->
+          <div class="footer-col">
+            <h4>Newsletter</h4>
+            <p>
+              Stay updated with the latest news and updates from Ahmedabad,
+              Gujarat.
+            </p>
+            <form class="newsletter-form" id="newsletter-form">
+              <input
+                type="email"
+                id="newsletterEmail"
+                placeholder="Your email"
+                required
+                autocomplete="email"
+              />
+              <button type="submit">Subscribe</button>
+            </form>
+          </div>
+        </div>
+
+        <!-- Footer Bottom -->
+        <div class="footer-bottom">
+          <p>&copy; 2025 Eureka! Estates, All Rights Reserved.</p>
+          <ul class="footer-links">
+            <li>
+              <a href="cookies.html" onclick="showCookiesPopup()">Cookies</a>
+            </li>
+            <li><a href="privacy.html">Privacy Policy</a></li>
+            <li><a href="terms.html">Terms of Use</a></li>
+            <li><a href="about_us.html#faq-section">FAQs</a></li>
+          </ul>
+          <p class="footer-slogan">Discover Spaces, Define Living.</p>
+        </div>
+      </div>
+    </footer>
+
+    <!-- JS CDN's -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"></script>
+    <script
+      type="text/javascript"
+      src="https://cdn.emailjs.com/dist/email.min.js"
+    ></script>
+
+    <!-- OWN JS -->
+    <script src="js/main.js" defer></script>
+    <div id="cookiesPopup" class="cookies-popup">
+      <p>
+        We use cookies to improve your experience. By using our site, you agree
+        to our use of cookies.
+      </p>
+      <button onclick="hideCookiesPopup()">Got it!</button>
+    </div>
+  </body>
+</html>

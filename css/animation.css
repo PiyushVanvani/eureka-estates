@@ -1,0 +1,210 @@
+/*For Slider Animations*/
+@keyframes slideInFromRight {
+  0% {
+    transform: translateX(100%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+@keyframes bounce {
+  0%,
+  100% {
+    transform: translate(-50%, -50%) translateY(0);
+  }
+  50% {
+    transform: translate(-50%, -50%) translateY(-10px);
+  }
+}
+
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+
+@keyframes slideInFromLeft {
+  0% {
+    transform: translateX(-100%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+.slideInFromRight {
+  animation: slideInFromRight 1.25s ease-out;
+}
+
+.slideInFromLeft {
+  animation: slideInFromLeft 1.25s ease-out;
+}
+
+/* For Types Of Properties Section Animation */
+.types h3,
+.types h6,
+.types .col-sm-6 {
+  opacity: 0;
+  transform: translateY(50px);
+  transition: opacity 0.5s ease, transform 0.5s ease;
+}
+.types.animate-visible h3,
+.types.animate-visible h6,
+.types.animate-visible .col-sm-6 {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* Adjust transition delays for individual cards */
+.types.animate-visible .col-sm-6:nth-child(1) {
+  transition-delay: 0.3s;
+}
+
+.types.animate-visible .col-sm-6:nth-child(2) {
+  transition-delay: 0.5s;
+}
+
+.types.animate-visible .col-sm-6:nth-child(3) {
+  transition-delay: 0.7s;
+}
+
+.types.animate-visible .col-sm-6:nth-child(4) {
+  transition-delay: 0.9s;
+}
+
+.types.animate-visible .col-sm-6:nth-child(5) {
+  transition-delay: 1.1s;
+}
+
+.types.animate-visible .col-sm-6:nth-child(6) {
+  transition-delay: 1.3s;
+}
+
+.types.animate-visible .col-sm-6:nth-child(7) {
+  transition-delay: 1.5s;
+}
+
+.types.animate-visible .col-sm-6:nth-child(8) {
+  transition-delay: 1.7s;
+}
+
+/* scrollbar styling */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #1e90ff;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: #0a5fa3;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+::-webkit-scrollbar-corner {
+  background: transparent;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+@keyframes slideInFromLeft {
+  0% {
+    transform: translateX(-100%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+@keyframes slideInFromRight {
+  0% {
+    transform: translateX(100%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+.slide-in-left {
+  animation: slideInFromLeft 1.5s ease-out;
+}
+
+.slide-in-right {
+  animation: slideInFromRight 2s ease-out;
+}
+
+.offer-card {
+  opacity: 0;
+  transition: opacity 0.75s ease;
+}
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+    opacity: 0.7;
+  }
+  50% {
+    transform: scale(1.1);
+    opacity: 1;
+  }
+  100% {
+    transform: scale(1);
+    opacity: 0.7;
+  }
+}
+
+/* Fade-in Animation for Mission and Vision */
+@keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px); /* Slightly reduced vertical movement */
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
